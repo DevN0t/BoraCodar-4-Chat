@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+  </head>
+  <body>
+    <div id="app">
+      
+      <div id="top">
+        <div id="seta">
+            <i class="ph-caret-circle-double-down"></i>
+        </div>
+        
+        <div id="user-info">
+          <img src="https://cdn.discordapp.com/attachments/1046903091561234545/1071896985801601265/EU.png" alt="Avatar de um homem branco de óculos e cabelos grandes e castanhos sorrindo"/>
+          <div id="user-status">
+            <div id="usuario">
+                <strong id="nome">Caynã</strong>
+                <strong id="sobrenome">Developer</strong>
+            </div>
+            <div class="status">Online</div>
+          </div>
+        </div>
+        <div id="meio"> 
+            
+            <div id="conexoes">
+                <div id="link">
+                    <p>
+                        <a href="https://www.linkedin.com/in/cayn%C3%A3mariano">
+                            <i class="ph-linkedin-logo"></i>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.instagram.com/n0t_six/">
+                            <i class="ph-instagram-logo"></i>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/DevN0t">
+                            <i class="ph-github-logo"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a href="conversas.html">
+            <div id="close-chat">
+                <i class="ph-caret-left"></i>
+            </div>
+        </a>
+      </div>
+      <div id="messages">
+        <div id="last-seen">Today 11:20</div>
+
+        <div class="messages"></div>
+      </div>
+      <form id="bottom">
+        <input id="newMessage" type="text" placeholder="Type a message" />
+        <button id="send">
+          <i class="ph-paper-plane-right"></i>
+        </button>
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
